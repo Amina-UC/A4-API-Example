@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'api.dart';
+import 'GET Method API/api.dart';
+import 'POST Method API/post_api.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: APIExample(),
+      home: PostApi(),
     );
   }
 }
